@@ -1,5 +1,5 @@
 const nav = document.querySelector("nav");
-
+const heroAnimation = document.getElementById("heroAnimationId");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
     nav.classList.add("nav-scrolled");
