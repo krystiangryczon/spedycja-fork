@@ -8,3 +8,15 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("nav-scrolled");
   }
 });
+
+const openSidebar = document.querySelector(".bars");
+const closeSidebar = document.querySelector(".x");
+const navShow = document.querySelector(".nav");
+
+openSidebar.addEventListener("click", () => {
+  navShow.classList.add("navShow");
+});
+
+closeSidebar.addEventListener("click", () => {
+  navShow.classList.remove("navShow");
+});

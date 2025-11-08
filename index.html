@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spedycja</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/tabIcon.png" />
     <script defer src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1017934682.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="hero">
+    <div id="główna" class="hero">
       <div class="heroLeft">
         <h1>
           Transportuj mądrzej,
@@ -30,23 +35,101 @@
         </div>
       </div>
     </div>
+
     <nav>
       <div class="logoName">
         <img src="./images/logo.png" alt="KANSPED" />
       </div>
+      <i class="fa-solid fa-bars bars"></i>
       <div class="navItems">
         <ul>
-          <li><a href="">Główna</a></li>
-          <li><a href="">O Nas</a></li>
-          <li><a href="">Usługi</a></li>
-          <li><a href="">Kontakt</a></li>
+          <li><a href="#główna">Główna</a></li>
+          <li><a href="#oNas">O Nas</a></li>
+          <li><a href="#usługi">Usługi</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="nav">
+        <i class="fa-solid fa-x x"></i>
+        <ul>
+          <li><a href="#główna">Główna</a></li>
+          <li><a href="#oNas">O Nas</a></li>
+          <li><a href="#usługi">Usługi</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </div>
     </nav>
+
     <main>
-      <div class="oNas">
-        <p>Hi</p>
+      <div id="oNas" class="oNas">
+        <h2>Poznaj Naszą Firme</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+          aliquam et nobis! Libero, molestias voluptatum.
+        </p>
+        <div class="oNasMain">
+          <div class="oNasLeft">
+            <div class="image">
+              <div class="bluredBG">
+                <p>
+                  10M+ <br />
+                  <span>Przejechanych kilometrów</span>
+                </p>
+                <p>
+                  50K+ <br />
+                  <span>Dostaw</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="oNasRight">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
+              aliquid unde enim quae porro animi explicabo soluta maiores, fuga
+              omnis. Eaque quis ipsum minima laborum modi odit deleniti
+              accusantium voluptatum incidunt nostrum totam, neque, quasi
+              corrupti atque aperiam earum qui obcaecati porro quidem blanditiis
+              eum, a quisquam ut! Aspernatur, quasi vitae! Rem officia explicabo
+              quae vel porro, est velit vero cumque iste? Reprehenderit placeat
+              velit consectetur magni excepturi optio ducimus quam qui veritatis
+              quos quis, perferendis vitae hic, quae facilis culpa similique
+              alias aliquid animi. Voluptatem facere quae dolorem laboriosam
+              esse! Quaerat officiis incidunt eaque, a temporibus soluta ducimus
+              debitis distinctio placeat natus, nisi eveniet consequuntur modi,
+              aperiam veniam?
+            </p>
+            <div class="dodatkoweInfo">
+              <div class="dodatkoweInfoChild">
+                <i class="fa-solid fa-award"></i>
+                <h3>Lider branży</h3>
+                <p>Ponad 20 lat doskonałości w transporcie towarowym</p>
+              </div>
+              <div class="dodatkoweInfoChild">
+                <i class="fa-solid fa-users"></i>
+                <h3>Zespół ekspertów</h3>
+                <p>
+                  Ponad 200 certyfikowanych kierowców i specjalistów logistyki
+                </p>
+              </div>
+              <div class="dodatkoweInfoChild">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h3>Partner wzrostu</h3>
+                <p>
+                  Skalowalne rozwiązania, które rosną razem z Twoim biznesem
+                </p>
+              </div>
+              <div class="dodatkoweInfoChild">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Sieć ogólnokrajowa</h3>
+                <p>Zasięg na całą Polskę z lokalną wiedzą</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div id="usługi" class="usługi"></div>
+      <div id="kontakt" class="kontakt"></div>
     </main>
+    <footer></footer>
   </body>
 </html>
