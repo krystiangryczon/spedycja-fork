@@ -20,3 +20,10 @@ openSidebar.addEventListener("click", () => {
 closeSidebar.addEventListener("click", () => {
   navShow.classList.remove("navShow");
 });
+
+const openSidebarItems = navShow.querySelectorAll("li");
+openSidebarItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    navShow.classList.remove("navShow");
+  });
+});
