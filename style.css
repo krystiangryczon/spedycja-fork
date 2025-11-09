@@ -398,7 +398,7 @@ nav a:hover {
 
 .usługi p {
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 
 .usługiContainer {
@@ -459,6 +459,74 @@ nav a:hover {
   color: #67bafe;
 }
 
+.kontakt {
+  padding: 0 40px;
+}
+.kontakt h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 32px;
+  margin-top: 96px;
+  background: #121fcf;
+  background: linear-gradient(to right, #121fcf 0%, #67bafe 67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.kontakt p {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.kontaktMain {
+  display: flex;
+  gap: 2em;
+}
+.kontaktInfoCards {
+  width: 40%;
+}
+
+.kontakt .card {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  margin: 5px 0;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.kontakt .card .cardDodatkowe {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.kontakt .card i {
+  font-size: 1.7rem;
+  text-align: center;
+  width: 40px;
+  padding: 20px 15px;
+  align-items: center;
+  background: linear-gradient(to right, rgb(1, 98, 255), rgb(16, 165, 228));
+  border-radius: 16px;
+  color: white;
+}
+
+.kontakt .card h3 {
+  color: grey;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.kontakt .card p {
+  margin-bottom: 0;
+  text-align: start;
+}
+
+.kontakt iframe {
+  height: auto;
+  width: 60%;
+  border-radius: 16px;
+}
 @keyframes showOnLoad {
   from {
     top: -50px;
@@ -500,6 +568,15 @@ nav a:hover {
   }
   .usługiContainerChild {
     flex-basis: calc(50% - 2em);
+  }
+  .kontaktMain {
+    flex-wrap: wrap;
+  }
+  .kontaktInfoCards {
+    flex-basis: 100%;
+  }
+  .kontaktMain iframe {
+    flex-basis: 100%;
   }
 }
 @media only screen and (width <= 750px) {
