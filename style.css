@@ -279,7 +279,7 @@ nav a:hover {
   padding: 40px;
 }
 .oNasLeft .image {
-  background: url("https://www.krotoski-adwokaci.pl/images/career/1.webp");
+  background: url("./public/image.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -289,9 +289,9 @@ nav a:hover {
   display: flex;
   align-items: end;
   justify-content: center;
-  -webkit-box-shadow: 0px 8px 100px 7px rgba(103, 148, 175, 1);
-  -moz-box-shadow: 0px 8px 100px 7px rgba(103, 148, 175, 1);
-  box-shadow: 0px 8px 100px 7px rgba(103, 148, 175, 1);
+  -webkit-box-shadow: 0px 8px 100px 3px rgba(103, 148, 175, 1);
+  -moz-box-shadow: 0px 8px 100px 3px rgba(103, 148, 175, 1);
+  box-shadow: 0px 8px 100px 3px rgba(103, 148, 175, 1);
   overflow: hidden;
   transition: transform 0.5s ease;
 }
