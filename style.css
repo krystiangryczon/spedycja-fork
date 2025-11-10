@@ -26,8 +26,6 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 32px;
-  padding: 0 40px;
-  padding-right: 0;
 }
 
 .heroLeft {
@@ -36,6 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 45%;
+  margin-left: 40px;
 }
 
 .heroLeft h1 {
@@ -695,9 +694,11 @@ footer {
   .oNas,
   .usługi,
   .kontakt,
-  .hero,
   footer {
     padding: 0 20px;
+  }
+  .heroLeft {
+    margin-left: 20px;
   }
 }
 
@@ -705,8 +706,10 @@ footer {
   .oNas,
   .usługi,
   .kontakt,
-  .hero,
   footer {
     padding: 0 10px;
+  }
+  .heroLeft {
+    margin-left: 10px;
   }
 }
