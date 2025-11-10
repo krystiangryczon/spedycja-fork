@@ -599,6 +599,10 @@ footer {
   nav .navItems {
     display: none;
   }
+  .dodatkoweInfo {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1em !important;
+  }
   nav .bars {
     display: block;
     margin-right: 50px;
@@ -634,6 +638,9 @@ footer {
   }
 }
 @media only screen and (width <= 500px) {
+  .dodatkoweInfo {
+    grid-template-columns: 1fr !important;
+  }
   .navShow {
     width: 100%;
   }
@@ -664,6 +671,9 @@ footer {
   }
   .heroLeft {
     margin-left: 20px;
+  }
+  .kontaktInfoCards {
+    margin-right: 20px;
   }
 }
 
