@@ -44,7 +44,7 @@ body {
 }
 .heroLeft span {
   background: #121fcf;
-  background: linear-gradient(to right, #2746d3 0%, #366cc2 67%);
+  background: linear-gradient(to right, #2746d3 0%, #6198ef 67%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
