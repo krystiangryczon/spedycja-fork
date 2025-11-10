@@ -219,7 +219,7 @@ nav a:hover {
 }
 
 .logoName img {
-  width: 150px;
+  width: 200px;
 }
 
 .navItems {
@@ -282,7 +282,7 @@ nav a:hover {
       rgba(0, 24, 122, 0),
       rgba(0, 65, 176, 0.842)
     ),
-    url("https://plus.unsplash.com/premium_photo-1661672133458-8fb71f97757b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8");
+    url("https://www.krotoski-adwokaci.pl/images/career/1.webp");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -412,7 +412,7 @@ nav a:hover {
 }
 
 .usługiContainerChild h3 {
-  text-align: start;
+  text-align: center;
   margin: 10px 0;
   font-weight: 700;
   font-size: 1.5rem;
@@ -421,7 +421,7 @@ nav a:hover {
 .usługiContainerChild p {
   font-size: 1.2rem;
   color: grey;
-  text-align: start;
+  text-align: center;
   margin-bottom: 16px;
 }
 
@@ -430,12 +430,15 @@ nav a:hover {
 }
 .usługiContainerChild li {
   padding: 5px 0;
+  color: grey;
 }
 .usługiContainerChild li::marker {
   color: #67bafe;
 }
 
 .iContainer {
+  display: flex;
+  justify-content: center;
   background: radial-gradient(
     rgba(126, 238, 253, 0.403),
     rgba(111, 225, 253, 0)
