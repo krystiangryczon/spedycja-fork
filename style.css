@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   padding-top: 32px;
   padding: 0 40px;
+  padding-right: 0;
 }
 
 .heroLeft {
